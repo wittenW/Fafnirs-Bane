@@ -49,11 +49,14 @@
      <Compile Include="Assets\X-UniTMX\Editor\GUIHelpers.cs" />
      <Compile Include="Assets\X-UniTMX\Editor\TiledMapComponentEditor.cs" />
      <Compile Include="Assets\X-UniTMX\Editor\TiledMapObjectsWindow.cs" />
+     <None Include="Assets\Resources\Maps\origionaltown2.xml" />
      <None Include="Assets\X-UniTMX\ObjectTypesForTiled.xml" />
      <None Include="Assets\Resources\Maps\town2.xml" />
      <None Include="Assets\Resources\Maps\grassMap.xml" />
      <None Include="Assets\Resources\Maps\watson.xml" />
      <None Include="Assets\Resources\Maps\town1.xml" />
+     <None Include="Assets\Resources\Maps\graveyard.xml" />
+     <None Include="Assets\Resources\Maps\crypt.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

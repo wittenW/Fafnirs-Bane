@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Resources\Scripts\DKControllerScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\button.cs" />
      <Compile Include="Assets\X-UniTMX\Code\ImageLayer.cs" />
      <Compile Include="Assets\X-UniTMX\Code\Layer.cs" />
      <Compile Include="Assets\X-UniTMX\Code\Map.cs" />
@@ -69,11 +71,15 @@
      <Compile Include="Assets\X-UniTMX\Code\Utils\Triangulator.cs" />
      <Compile Include="Assets\X-UniTMX\Code\Utils\clipper.cs" />
      <Compile Include="Assets\X-UniTMX\NanoXML\NanoXMLParser.cs" />
+     <Compile Include="Assets\button.cs" />
+     <None Include="Assets\Resources\Maps\origionaltown2.xml" />
      <None Include="Assets\X-UniTMX\ObjectTypesForTiled.xml" />
      <None Include="Assets\Resources\Maps\town2.xml" />
      <None Include="Assets\Resources\Maps\grassMap.xml" />
      <None Include="Assets\Resources\Maps\watson.xml" />
      <None Include="Assets\Resources\Maps\town1.xml" />
+     <None Include="Assets\Resources\Maps\graveyard.xml" />
+     <None Include="Assets\Resources\Maps\crypt.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

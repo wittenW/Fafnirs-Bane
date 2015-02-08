@@ -57,13 +57,30 @@ public class DKControllerScript : MonoBehaviour
 
 	}
 
-	void OnCollisionEnter2D (Collision2D col)
+	void OnCollisionEnter2D(Collision2D col)
 	{
-		if (col.gameObject.tag == "walls")
+		Debug.Log ("hit the collision box");
+		if(col.gameObject.CompareTag("walls"))
 		{
+			Debug.Log ("hit the collision box again");
 			rigidbody2D.velocity = new Vector2 (0, 0);
 			rigidbody2D.position = startPosition;
 			moving = false;	
+		}
+		if(col.gameObject.CompareTag("newGame"))
+		{
+			Debug.Log ("hit the newGame box");
+			Application.LoadLevel("Test Scene");
+		}
+		if(col.gameObject.CompareTag("ExitPoint"))
+		{
+			Debug.Log ("hit the newGame box");
+			Application.LoadLevel("graveyard");
+		}
+		if(col.gameObject.CompareTag("graveyardExit"))
+		{
+			Debug.Log ("hit the newGame box");
+			Application.LoadLevel("crypt");
 		}
 	}
 }

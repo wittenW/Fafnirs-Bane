@@ -4,6 +4,10 @@
 TagManager:
   tags:
   - walls
+  - spawnPoint
+  - ExitPoint
+  - newGame
+  - graveyardExit
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -14,7 +18,7 @@ TagManager:
   Builtin Layer 6: 
   Builtin Layer 7: 
   User Layer 8: Tile layer 1
-  User Layer 9: 
+  User Layer 9: buttons
   User Layer 10: 
   User Layer 11: 
   User Layer 12: 
@@ -49,4 +53,8 @@ TagManager:
   - name: Tile layer 1
     userID: 2
     uniqueID: 1249217437
+    locked: 0
+  - name: buttons
+    userID: 3
+    uniqueID: 2659064485
     locked: 0
