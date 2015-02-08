@@ -1614,6 +1614,7 @@
    <tile gid="36"/>
   </data>
  </layer>
+<<<<<<< HEAD
  <layer name="HouseOneRoof" width="20" height="40">
   <data>
    <tile gid="0"/>
@@ -2418,4 +2419,45 @@
    <tile gid="0"/>
   </data>
  </layer>
+=======
+ <objectgroup name="collisionBoxes">
+  <object x="3" y="24" width="31" height="1259"/>
+  <object x="3" y="-2" width="637" height="34"/>
+  <object x="610" y="224" width="30" height="1056"/>
+  <object x="610" y="38" width="30" height="89"/>
+  <object x="225" y="39" width="33" height="117"/>
+  <object x="36" y="33" width="28" height="122"/>
+  <object x="129" y="256" width="29" height="220"/>
+  <object x="289" y="257" width="30" height="93"/>
+  <object x="288" y="385" width="32" height="93"/>
+  <object x="61" y="35" width="198" height="28"/>
+  <object x="160" y="128" width="95" height="28"/>
+  <object x="36" y="128" width="91" height="30"/>
+  <object x="129" y="258" width="189" height="28"/>
+  <object x="131" y="448" width="189" height="32"/>
+  <object x="33" y="511" width="126" height="31"/>
+  <object x="128" y="515" width="31" height="91"/>
+  <object x="35" y="514" width="25" height="219"/>
+  <object x="61" y="705" width="97" height="29"/>
+  <object x="129" y="642" width="27" height="81"/>
+  <object x="481" y="799" width="131" height="33"/>
+  <object x="481" y="822" width="29" height="43"/>
+  <object x="481" y="897" width="30" height="59"/>
+  <object x="480" y="928" width="126" height="30"/>
+  <object x="575" y="819" width="38" height="138"/>
+  <object x="34" y="928" width="251" height="30"/>
+  <object x="165" y="1057" width="122" height="30"/>
+  <object x="32" y="1056" width="91" height="30"/>
+  <object x="35" y="929" width="29" height="129"/>
+  <object x="257" y="931" width="29" height="134"/>
+  <object x="321" y="1248" width="294" height="31"/>
+  <object x="29" y="1250" width="193" height="31"/>
+  <object x="353" y="609" width="187" height="124"/>
+  <object x="417" y="577" width="125" height="31"/>
+  <object x="535" y="609" width="41" height="62"/>
+  <object x="480" y="542" width="31" height="39"/>
+  <object x="324" y="641" width="39" height="28"/>
+  <object x="416" y="735" width="96" height="33"/>
+ </objectgroup>
+>>>>>>> 00fd69bee40a1d9a382e215f1c68170c86287e9a
 </map>

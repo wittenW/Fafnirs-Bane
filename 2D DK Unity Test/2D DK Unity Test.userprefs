@@ -1,10 +1,18 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\MainMenu.cs">
     <Files>
       <File FileName="Assets\Resources\Scripts\LoadLevel.cs" Line="8" Column="24" />
       <File FileName="Assets\Resources\Scripts\MainMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\Resources\Scripts\UIInterfaceManager.cs" Line="15" Column="49" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\DKControllerScript.cs">
+    <Files>
+      <File FileName="Assets\Resources\Maps\town2.xml" Line="1624" Column="52" />
+      <File FileName="Assets\Resources\Scripts\DKControllerScript.cs" Line="78" Column="28" />
+>>>>>>> 00fd69bee40a1d9a382e215f1c68170c86287e9a
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
