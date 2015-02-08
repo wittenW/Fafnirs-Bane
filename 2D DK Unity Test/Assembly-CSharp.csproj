@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Scripts\DKControllerScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameInstance.cs" />
+     <Compile Include="Assets\Resources\Scripts\LoadLevel.cs" />
+     <Compile Include="Assets\Resources\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Resources\Scripts\TransitionScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\UIInterfaceManager.cs" />
      <Compile Include="Assets\X-UniTMX\Code\ImageLayer.cs" />
      <Compile Include="Assets\X-UniTMX\Code\Layer.cs" />
      <Compile Include="Assets\X-UniTMX\Code\Map.cs" />
@@ -78,7 +83,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Ionic.Zlib">
- <HintPath>D:/Fafnirs Bane/2D DK Unity Test/Assets/X-UniTMX/Ionic.Zlib.dll</HintPath>
+ <HintPath>D:/GitHub/Fafnirs-Bane/2D DK Unity Test/Assets/X-UniTMX/Ionic.Zlib.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
