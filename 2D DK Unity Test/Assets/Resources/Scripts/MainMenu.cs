@@ -20,10 +20,15 @@ public class MainMenu : MonoBehaviour
     public void StartButtonClick()
     {
         Debug.Log("Start button Clicked");
-        Application.LoadLevel("Test Scene");
-//        GameObject[] components = this.GetComponentsInParent;
-//        
-//        foreach (var g in components)
-//            Debug.Log(g.name);
+
+        StartGame();
     }
+
+    private void StartGame()
+    {
+        Debug.Log("Starting game");
+        DontDestroyOnLoad(GameInstance.Instance);
+        GameInstance.Instance.StartState();
+    }
+
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class UIInterfaceManager : MonoBehaviour
 {
-    GameObject inventoryMenu;
+    public static GameObject inventoryMenu;
 
 
     // Use this for initialization

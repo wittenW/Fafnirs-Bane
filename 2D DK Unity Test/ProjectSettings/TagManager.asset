@@ -4,10 +4,9 @@
 TagManager:
   tags:
   - walls
-  - spawnPoint
+  - SpawnPoint
   - ExitPoint
   - newGame
-  - graveyardExit
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

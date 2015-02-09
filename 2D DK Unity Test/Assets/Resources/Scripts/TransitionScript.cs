@@ -1,31 +1,19 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class TransitionScript : MonoBehaviour
 {
+    public string LinkedScene;
 
-		[SerializeField]
-		public string
-				TransitionLocation;
+    [SerializeField]
+    public string
+        LinkedSpawn = "Spawn";
 
-
-		// Use this for initialization
-		void Start ()
-		{
-	
-		}
-	
-		// Update is called once per frame
-		void Update ()
-		{
-	
-		}
-	
-		void OnTriggerEnter (Collider other)
-		{
-				if (other.tag == "Player")
-						Application.LoadLevel ("Test Scene");
-		}
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        GameInstance.NextSpawn = LinkedSpawn;
+        Application.LoadLevel(LinkedScene);
+    }
 	
 	
 	
