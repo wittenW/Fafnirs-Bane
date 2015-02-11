@@ -4,18 +4,6 @@ using System.Collections.Generic;
 
 public class MainMenu : MonoBehaviour
 {
-
-    // Use this for initialization
-    void Start()
-    {
-	
-    }
-	
-    // Update is called once per frame
-    void Update()
-    {
-	
-    }
     
     public void StartButtonClick()
     {
@@ -28,6 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Starting game");
         DontDestroyOnLoad(GameInstance.Instance);
+        DontDestroyOnLoad(UIInterfaceManager.Instance);
         GameInstance.Instance.StartState();
     }
 

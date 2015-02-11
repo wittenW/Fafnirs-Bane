@@ -14,9 +14,4 @@ public class TransitionScript : MonoBehaviour
         GameInstance.NextSpawn = LinkedSpawn;
         Application.LoadLevel(LinkedScene);
     }
-	
-	
-	
-	
-	
 }
